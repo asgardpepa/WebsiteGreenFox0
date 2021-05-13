@@ -1,0 +1,17 @@
+h1{
+    color: #F07167;
+}
+
+header{
+    height: 50px;
+    background-color: #0081A7;
+}
+
+nav{
+    margin: 0px auto;
+    width: 1020px;
+}
+
+h1:hover{
+    color: #FED9B7;
+}
