@@ -5,10 +5,10 @@ html, body{
 }
 
 body{
+    font-family: 'Girassol', cursive;
     background-image: url("/assets/topography.png");
     
 }
-
 
 h1{
     color: #264653;
@@ -18,14 +18,27 @@ h1{
 h2{
     color: #E76F51;
 }
+
+header{
+    background: #264653;
+}
 /* header - navigation*/
 nav{
-    background: #264653;
+    width: 1020px;
+    margin: 0 auto;
 }
 
 nav ul{
     margin: 0px auto;
-    width: 1020px;
+    border: 1px solid palevioletred;
+}
+
+nav img{
+    width: 145px;
+    float: left;
+    text-align: left;
+    line-height: 50px;
+    border: 1px solid plum;
 }
 
 nav ul li{
@@ -34,6 +47,12 @@ nav ul li{
     float: right;
     text-align: center;
     line-height: 50px;
+    border: 1px solid yellow;
+
+}
+
+nav ul li img{
+    float: left;
 }
 
 nav ul li a{
@@ -57,4 +76,8 @@ main{
     padding: 0 10px;
     margin: 0 auto;
     border: 1px solid red;
+}
+
+#separator{
+    text-align: center;
 }
