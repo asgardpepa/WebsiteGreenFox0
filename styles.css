@@ -1,22 +1,24 @@
-html, body{
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 body{
-    font-family: 'Girassol', cursive;
     background-image: url("/assets/topography.png");
-    
 }
 
 h1{
     color: #264653;
-    font-size: 40px;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 h2{
     color: #E76F51;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 header{
@@ -34,10 +36,10 @@ nav ul{
 }
 
 nav img{
-    width: 145px;
+    width: 50px;
     float: left;
-    text-align: left;
     line-height: 50px;
+    padding: 5px;
     border: 1px solid plum;
 }
 
@@ -70,7 +72,7 @@ nav ul li a:hover{
     display: table;
     clear: both;
 }
-
+/******* main *******/
 main{
     width: 1020px;
     padding: 0 10px;
@@ -81,3 +83,11 @@ main{
 #separator{
     text-align: center;
 }
+
+#answersH1{
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
