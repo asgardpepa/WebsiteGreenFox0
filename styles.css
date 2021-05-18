@@ -13,18 +13,24 @@ h1{
     font-size: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: 'Merriweather', serif;
 }
 
 h2{
     color: #E76F51;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: 'Merriweather', serif;
 }
 
+p{
+    font-family: 'Raleway', sans-serif;
+}
+/****** header *****/
 header{
     background: #264653;
 }
-/* header - navigation*/
+
 nav{
     width: 1020px;
     margin: 0 auto;
@@ -32,15 +38,14 @@ nav{
 
 nav ul{
     margin: 0px auto;
-    border: 1px solid palevioletred;
 }
 
 nav img{
+    margin-left: 10px;
     width: 50px;
     float: left;
     line-height: 50px;
     padding: 5px;
-    border: 1px solid plum;
 }
 
 nav ul li{
@@ -49,8 +54,6 @@ nav ul li{
     float: right;
     text-align: center;
     line-height: 50px;
-    border: 1px solid yellow;
-
 }
 
 nav ul li img{
@@ -77,11 +80,21 @@ main{
     width: 1020px;
     padding: 0 10px;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
+#AboutMe a{
+    text-decoration: none;
+    color: green;    
+    font-weight: 700;
+}
+
+#AboutMe a:hover{
+    background-color: rgba(216, 202, 202, 0.3);
+}
+    
 #separator{
     text-align: center;
+    font-size: 40px;
 }
 
 #answersH1{
